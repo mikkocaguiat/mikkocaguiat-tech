@@ -1,0 +1,14 @@
+title = "MGC Tech Tips TOML File"
+
+[owner]
+name = "MGC Tech Tips"
+
+
+# Site Map Plug In
+[[plugins]]
+package = "@netlify/plugin-sitemap"
+
+  [plugins.inputs]
+  buildDir = "public"
+   # disable pretty URLS and keep `index.html` & trailing `.html` file references in paths
+  prettyURLs = false
