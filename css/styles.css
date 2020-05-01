@@ -4,38 +4,37 @@
 .logo-image{
     height: 50px;
 }
-
-
-#banner{
-    background-image: url("../images/seamless-background.jpg");
-    padding-top: 35px;
-}
 /* NAVBAR CSS */
+
 .navbar-dark .navbar-toggler-icon {
     background-image: url("../images/icon.png");
-  }
-
-#navbarNav ul li a{ 
+}
+.navbar-nav a{ 
     height: 35px;
     line-height: 15px;
     padding: 10px 15px 10px 15px;
     color:#fff;
-    text-decoration: none;
     border-radius: 3px;
-    font-weight: bold;
     letter-spacing: 1px;
 }
-
-#navbarNav ul li a:hover{ 
-    background-color: #ffffff9f;
-    color: #3f3f3f;
+.navbar-nav a:hover{ 
+    background-color: #ffffff68;
+    color: #343a40;
 }
 
 /* END OF NAVBAR CSS */
-.greeting{
-    padding-top: 30px;
-    padding-bottom: 30px;
+/* #banner{
+    background-image: url("../images/seamless-background.jpg");
+    padding-top: 35px;
+} */
+.trickcenter {
+    /* position: fixed; */
+    top: 50%; // 50% for perfect centering
+    left: 0%;
+    transform: translate(-30%, -70%);
 }
+
+
 
 #contact{
     background-image: url("../images/seamless-background.jpg");
