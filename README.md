@@ -1,7 +1,20 @@
 MGC TECH TIPS
+ALL RIGHTS RESERVE 2020
+This website is build and maintained solely by Mikko Caguiat.
+Some of the parts of this website are compiled from various tutorials and pre made templates
+that i edited to fit the design of my website.
+
+Files, websites and software used.
+1. Github - documenting everything that I accomplish in my website.
+2. Netlify - this serves as my web hosting platform as I develop my website. Sooner when it is done. I will publish it in a separate domain name and upgrade to a bigger web hosting platform. For now, netlify suites the best for developing beginner websites like this.
+3. Google Analytics for monitoring people who visits my site.
+4. Bootsrap 4 as my main CSS source.
+5. Lokesh Dhakar's Light Box script for loading smoothly my images. https://lokeshdhakar.com/projects/lightbox2/
 
 Adding New Blog Notes
 1. Always put your SEO Meta tags.
+
+    <br/>
 &lt;meta name="description"
         content="MGC Tech Tips - is a free online Electronics Tutorial Resource for beginners, hobbyist and students who want to pursue a field in Electronics. This site is a collection of all the note-lectures, circuits and electronic projects that i compiled here in MGC Tech Tips site."&gt;<br/>
     &lt;meta name="keywords" content="DIY, Electronics, Engineering, Tutorial"&gt;<br/>
@@ -24,25 +37,38 @@ Adding New Blog Notes
     &lt;meta property="og:site_name" content="MGC Tech Tips"&gt;<br/>
     &lt;meta property="og:type" content="website"&gt;<br/>
 
+CANONICAL LINK
+Only use this for duplicate pages
+&lt;link rel="canonical" href="https://mgctechtips.netlify.app"&gt;<br/>
+
+2. Always change the meta description tag for each individual page you make.
+3. Make specific title name also for each page.
+4. Always put alt description to your images.
+5. Dont forget your Google Analytics Tag.
+<br/>
+&lt;!-- Global site tag (gtag.js) - Google Analytics --&gt;
+    &lt;script async src="https://www.googletagmanager.com/gtag/js?id=UA-165274410-1"&gt;&lt;/script&gt;
+    &lt;script&gt;
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-165274410-1');
+    &lt;/script&gt;
+    &lt;!-- END OF GOOGLE Analytics -- &gt;
+ PUT USER ID CONSENT TO USERS.
+ PUT COOKIE NOTIFICATION
+<hr/>
+JOURNAL
+
 ###### Sat May 2 22:41:00 CST 2020
-ALL RIGHTS RESERVE 2020
 
 This is my personal journal as i make this website. As i am 
-wrting this i have already made my home page yet i still need to add some
+wrting this i have already made my home page yet i still need to add some.
 
 
-SEO PLan
-Title Page
-Electronics Lectures | MGC Tech Tips
-
-MGC Tech Tips - is a free online Electronics Tutorial Resource for beginners, hobbyist and students who want to pursue a field in Electronics. This site is a collection of all the note-lectures, circuits and electronic projects that i compiled here in MGC Tech Tips site.
-
-&lt;link rel="canonical" href="https://www.electronics-tutorials.ws/"&gt;<br/>
-
-PUT USER ID CONSENT TO USERS.
 
 
-PUT COOKIE NOTIFICATION
+
 
   
 
