@@ -1,11 +1,11 @@
+
+/*//////////////////////////////////////NAVBAR CSS////////////////////////////////////////////*/
 #navigation{
     background-color: #343a40;
 }
 .logo-image{
     height: 50px;
 }
-/* NAVBAR CSS */
-
 .navbar-dark .navbar-toggler-icon {
     background-image: url("../images/icon.png");
 }
@@ -21,36 +21,45 @@
     background-color: #ffffff68;
     color: #343a40;
 }
-
-/* END OF NAVBAR CSS */
-/* #banner{
-    background-image: url("../images/seamless-background.jpg");
-    padding-top: 35px;
-} */
-.trickcenter {
-    /* position: fixed; */
-    top: 50%; // 50% for perfect centering
+/* /////////////////////////////////////// BANNER ////////////////////////////////////////////// */
+.trickcenter h2, .trickcenter p{
+    top: 90%; // 50% for perfect centering
     left: 0%;
     transform: translate(-30%, -70%);
+    font-size: 50px;
 }
-
-
-
+.trickcenter p{
+    top: 90%; // 50% for perfect centering
+    left: 0%;
+    transform: translate(-30%, -70%);
+    font-size: 30px;
+}
+/* MAIN SECTION */
 #contact{
     background-image: url("../images/seamless-background.jpg");
 }
-
 #HCB_comment_box .submit {
     background:none; /* Clear twitter bootstrap style. */
     background-color:#fff;
     border:1px solid #343a40;
     color: white;
-  
 
-.search{
-    padding: 0.5rem;
-}
 
+/* LECTURES */
+
+
+/* CIRCUITS */
+
+
+
+
+/* PROJECTS */
+
+
+
+
+
+/* FOOTER */
 .gcse-search{
     padding: 0rem;
 }
