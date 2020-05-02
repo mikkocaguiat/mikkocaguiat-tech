@@ -8,10 +8,10 @@ Some of the parts of this website are compiled from various tutorials and pre ma
 that i edited to fit the design of my website.
 
 Files, websites and software used.
-1. Github - documenting everything that I accomplish in my website.
-2. Netlify - this serves as my web hosting platform as I develop my website. Sooner when it is done. I will publish it in a separate domain name and upgrade to a bigger web hosting platform. For now, netlify suites the best for developing beginner websites like this.
-3. Google Analytics for monitoring people who visits my site.
-4. Bootsrap 4 as my main CSS source.
+1. [Github](https://github.com/) - documenting everything that I accomplish in my website.
+2. [Netlify](https://netlify.com/) - this serves as my web hosting platform as I develop my website. Sooner when it is done. I will publish it in a separate domain name and upgrade to a bigger web hosting platform. For now, netlify suites the best for developing beginner websites like this.
+3. [Google Analytics](https://analytics.google.com/analytics/web/) for monitoring people who visits my site.
+4. [Bootsrap 4]() as my main CSS source.
 5. Lokesh Dhakar's Light Box script for loading smoothly my images. https://lokeshdhakar.com/projects/lightbox2/
 6. Unplash - special mention to unplash and the contributors for my copies of great electronics photos. Soon I'll be incorporating my own photos but for now i'll be using photos from them. Copyright to the owners. I am planning to put a carousel to the bottom to all the sources i copied. 
 
@@ -60,8 +60,9 @@ Only use this for duplicate pages<br/>
         gtag('config', 'UA-165274410-1');<br/>
     &lt;/script&gt;<br/>
     &lt;!-- END OF GOOGLE Analytics -- &gt;<br/>
- 6. PUT USER ID CONSENT TO USERS. - work in progress
- 7. PUT COOKIE NOTIFICATION - work in progress
+6. Always use Google Search Console to index your website
+7. PUT USER ID CONSENT TO USERS. - work in progress
+8. PUT COOKIE NOTIFICATION - work in progress
 <hr/>
 OFFICIAL COLOR PALLETES AS OF <br/>
 ###### Sat May 2 23:33:42 CST 2020
