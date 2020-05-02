@@ -79,6 +79,8 @@ JOURNAL
 This is my personal journal as i make this website. As i am 
 wrting this i have already made my home page yet i still need edit it to fit my preferred design. i have finished the navbar and footer. yet i still need to tweak some parts of it.
 
+###### Sun May 3 01:42:06 CST 2020
+I finally added my website to Google Search Console and Google Analytics. At first i dont know how to do this but it work!
 
 
 
