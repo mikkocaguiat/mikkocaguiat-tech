@@ -1,5 +1,5 @@
-MGC TECH TIPS
-ALL RIGHTS RESERVE 2020
+MGC TECH TIPS<br/>
+ALL RIGHTS RESERVE 2020<br/>
 This website is build and maintained solely by Mikko Caguiat.
 Some of the parts of this website are compiled from various tutorials and pre made templates
 that i edited to fit the design of my website.
@@ -11,9 +11,8 @@ Files, websites and software used.
 4. Bootsrap 4 as my main CSS source.
 5. Lokesh Dhakar's Light Box script for loading smoothly my images. https://lokeshdhakar.com/projects/lightbox2/
 
-Adding New Blog Notes
+<b>Adding New Blog Notes</b>
 1. Always put your SEO Meta tags.
-
     <br/>
 &lt;meta name="description"
         content="MGC Tech Tips - is a free online Electronics Tutorial Resource for beginners, hobbyist and students who want to pursue a field in Electronics. This site is a collection of all the note-lectures, circuits and electronic projects that i compiled here in MGC Tech Tips site."&gt;<br/>
@@ -37,24 +36,23 @@ Adding New Blog Notes
     &lt;meta property="og:site_name" content="MGC Tech Tips"&gt;<br/>
     &lt;meta property="og:type" content="website"&gt;<br/>
 
-CANONICAL LINK
-Only use this for duplicate pages
+CANONICAL LINK<br/>
+Only use this for duplicate pages<br/>
 &lt;link rel="canonical" href="https://mgctechtips.netlify.app"&gt;<br/>
 
 2. Always change the meta description tag for each individual page you make.
 3. Make specific title name also for each page.
 4. Always put alt description to your images.
-5. Dont forget your Google Analytics Tag.
-<br/>
-&lt;!-- Global site tag (gtag.js) - Google Analytics --&gt;
-    &lt;script async src="https://www.googletagmanager.com/gtag/js?id=UA-165274410-1"&gt;&lt;/script&gt;
-    &lt;script&gt;
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'UA-165274410-1');
-    &lt;/script&gt;
-    &lt;!-- END OF GOOGLE Analytics -- &gt;
+5. Dont forget your Google Analytics Tag.<br/>
+&lt;!-- Global site tag (gtag.js) - Google Analytics --&gt;<br/>
+    &lt;script async src="https://www.googletagmanager.com/gtag/js?id=UA-165274410-1"&gt;&lt;/script&gt;<br/>
+    &lt;script&gt;<br/>
+        window.dataLayer = window.dataLayer || [];<br/>
+        function gtag() { dataLayer.push(arguments); }<br/>
+        gtag('js', new Date());<br/>
+        gtag('config', 'UA-165274410-1');<br/>
+    &lt;/script&gt;<br/>
+    &lt;!-- END OF GOOGLE Analytics -- &gt;<br/>
  PUT USER ID CONSENT TO USERS.
  PUT COOKIE NOTIFICATION
 <hr/>
