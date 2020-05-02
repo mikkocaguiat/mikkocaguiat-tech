@@ -1,5 +1,5 @@
 
-# MGC TECH TIPS
+# MGC TECH TIPS ![alt text](https://mgctechtips.netlify.app/images/LOGO%20WITH%20BACKGROUND/LOGO-BG.png "MGC TECH TIPS")
 #### ALL RIGHTS RESERVE 2020
 
 This website is build and maintained solely by Mikko Caguiat.
