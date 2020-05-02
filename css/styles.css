@@ -21,6 +21,16 @@
     background-color: #5d5a5a3b;
     color: #0a0a0a;
 }
+
+/* NAVBAR */
+.container-fluid, .navbar{
+	background-color: #0a0a0a;
+}
+.navbar-brand{
+	padding: none;
+	font-weight: bold;
+}
+/* END OF NAVBAR */
 /* /////////////////////////////////////// BANNER ////////////////////////////////////////////// */
 .trickcenter h2, .trickcenter p{
     top: 90%; // 50% for perfect centering

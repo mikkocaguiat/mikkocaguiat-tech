@@ -1,6 +1,6 @@
 
-#MGC TECH TIPS
-ALL RIGHTS RESERVE 2020
+# MGC TECH TIPS
+#### ALL RIGHTS RESERVE 2020
 
 This website is build and maintained solely by Mikko Caguiat.
 Some of the parts of this website are compiled from various tutorials and pre made templates
