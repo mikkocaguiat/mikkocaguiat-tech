@@ -100,6 +100,7 @@ Adding Policies, Terms and Conditions etc. in my website. I used [WebsitePolicie
 
 ###### Sun May 3 06:04:24 CST 2020
 Successfully added cookie banner!
+I used [Godsont's Cookie Banner Code](https://github.com/Godsont/Cookie-Consent-Banner) big help!
 
 
 
