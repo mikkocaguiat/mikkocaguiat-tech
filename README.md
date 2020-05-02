@@ -1,5 +1,7 @@
-MGC TECH TIPS<br/>
-ALL RIGHTS RESERVE 2020<br/>
+
+#MGC TECH TIPS
+ALL RIGHTS RESERVE 2020
+
 This website is build and maintained solely by Mikko Caguiat.
 Some of the parts of this website are compiled from various tutorials and pre made templates
 that i edited to fit the design of my website.
@@ -11,8 +13,7 @@ Files, websites and software used.
 4. Bootsrap 4 as my main CSS source.
 5. Lokesh Dhakar's Light Box script for loading smoothly my images. https://lokeshdhakar.com/projects/lightbox2/
 6. Unplash - special mention to unplash and the contributors for my copies of great electronics photos. Soon I'll be incorporating my own photos but for now i'll be using photos from them. Copyright to the owners. I am planning to put a carousel to the bottom to all the sources i copied. 
-<!-- Photo citation from Unplash -->
-<a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@harrisonbroadbent?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Harrison Broadbent"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Harrison Broadbent</span></a>
+
 
 
 <b>Adding New Blog Notes</b>
