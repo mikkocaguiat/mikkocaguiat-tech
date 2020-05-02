@@ -40,6 +40,13 @@
     background-image: url("../images/seamless-background.jpg");
 }
 
+#HCB_comment_box .submit {
+    background:none; /* Clear twitter bootstrap style. */
+    background-color:#fff;
+    border:1px solid #343a40;
+    color: white;
+  
+
 .search{
     padding: 0.5rem;
 }
