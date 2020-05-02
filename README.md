@@ -66,7 +66,9 @@ Only use this for duplicate pages<br/>
 8. PUT COOKIE NOTIFICATION - work in progress
 <hr/>
 OFFICIAL COLOR PALLETES AS OF <br/>
-###### Sat May 2 23:33:42 CST 2020
+
+###### Sun May 3 04:32:15 CST 2020
+
 1. #0a0a0a - will be used for the background-color
 2. #ffffff -  will be used for the text color to contrast the background
 3. #5d5a5a3b - for the hover color in the navbar and footer.<!--EDITING THIS SOON IF NOT GOOD FOR THE DESIGN-->
@@ -81,6 +83,23 @@ wrting this i have already made my home page yet i still need edit it to fit my 
 
 ###### Sun May 3 01:42:06 CST 2020
 I finally added my website to Google Search Console and Google Analytics. At first i dont know how to do this but it work!
+
+
+###### Sun May 3 02:42:11 CST 2020
+I added Google tag manager but i still dont know how to use it.
+Side note. No progress in the main page. I am working on the analytics and SEO setup of the page.
+
+###### Sun May 3 03:02:16 CST 2020
+Adding Policies, Terms and Conditions etc. in my website. I used [WebsitePolicies](https://www.websitepolicies.com/)
+1. Cookie Policy - https://www.websitepolicies.com/policies/view/L28WClvd
+2. Disclaimer - https://www.websitepolicies.com/policies/view/qJ2THUyz
+3. Privacy Policy - https://www.websitepolicies.com/policies/view/nHm037An
+
+
+
+
+###### Sun May 3 06:04:24 CST 2020
+Successfully added cookie banner!
 
 
 
