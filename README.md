@@ -45,7 +45,8 @@ Only use this for duplicate pages<br/>
 4. Always put alt description to your images.
 5. Dont forget your Google Analytics Tag.<br/>
 &lt;!-- Global site tag (gtag.js) - Google Analytics --&gt;<br/>
-    &lt;script async src="https://www.googletagmanager.com/gtag/js?id=UA-165274410-1"&gt;&lt;/script&gt;<br/>
+    &lt;script async src="https://www.googletagmanager.com/gtag/js?id=UA-165274410-1"&gt;<br/>
+    &lt;/script&gt;<br/>
     &lt;script&gt;<br/>
         window.dataLayer = window.dataLayer || [];<br/>
         function gtag() { dataLayer.push(arguments); }<br/>
