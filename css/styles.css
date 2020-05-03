@@ -8,15 +8,13 @@
 .navbar-brand:hover{
 	color: #7c7c7c;
 }
-.color-custom, .color-custom a{
+.color-custom a{
 	font-weight: bold;
 	color: #ffffff !important;
 	text-decoration: none;
 }
 .color-custom a:hover{
-	background-color: #8a7e7e6f;
-	border-radius: 3px;
-	text-decoration: none;
+	color: #5a5a5a !important;
 }
 .dropdown-item{
 	color: #0a0a0a !important;
