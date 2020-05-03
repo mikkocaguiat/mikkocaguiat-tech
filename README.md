@@ -13,6 +13,7 @@ Files, websites and software used.
 4. [Bootsrap 4](https://getbootstrap.com/) as my main CSS source.
 5. [Lokesh Dhakar's Light Box](https://lokeshdhakar.com/projects/lightbox2/) script for loading smoothly my images. 
 6. [Unplash](https://unsplash.com/) - special mention to unplash and the contributors for my copies of great electronics photos. Soon I'll be incorporating my own photos but for now i'll be using photos from them. Copyright to the owners. I am planning to put a carousel to the bottom to all the sources i copied. 
+7. [Htmlcommentbox](www.htmlcommentbox.com) - this plugin is still work in progress. Comment section will be incorporated to each topic that i will be posting. 
 
 ---
 
@@ -64,8 +65,7 @@ Only use this for duplicate pages
     <!-- END OF GOOGLE Analytics -- >
 ```
 6. Always use Google Search Console to index your website
-7. PUT USER ID CONSENT TO USERS. - work in progress
-8. PUT COOKIE NOTIFICATION - work in progress
+7. Put Cookie Banner Code
 <hr/>
 OFFICIAL COLOR PALLETES AS OF <br/>
 
@@ -80,7 +80,7 @@ JOURNAL
 
 ###### Sat May 2 22:41:00 CST 2020
 
-This is my personal journal as i make this website. As i am 
+This is my personal journal as I build this website. As i am 
 wrting this i have already made my home page yet i still need edit it to fit my preferred design. i have finished the navbar and footer. yet i still need to tweak some parts of it.
 
 ###### Sun May 3 01:42:06 CST 2020
@@ -106,6 +106,10 @@ I used [Godsont's Cookie Banner Code](https://github.com/Godsont/Cookie-Consent-
 ###### Sun May 3 22:42:58 CST 2020
 I copied the the policy and i will be making my own web copy of my policies.
 All of this will be added to the sitemap of the web site.
+
+###### Sun May 3 23:03:28 CST 2020
+Back to the drawing board as I redesign my website using Adobe Xd for a proper guide.
+*Font Style for the Banner - [Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P?query=code)
 
 
 
