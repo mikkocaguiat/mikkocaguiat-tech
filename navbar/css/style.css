@@ -1,9 +1,33 @@
 /* NAVBAR */
-.container-fluid, .navbar{
+.top, .navbar{
 	background-color: #0a0a0a;
 }
 .navbar-brand{
 	padding: none;
+}
+.navbar-brand:hover{
+	color: #7c7c7c;
+}
+.color-custom, .color-custom a{
 	font-weight: bold;
+	color: #ffffff;
+	text-decoration: none;
+}
+.color-custom a:hover{
+	background-color: #8a7e7e6f;
+	border-radius: 3px;
+	text-decoration: none;
+}
+.dropdown-item{
+	color: #0a0a0a !important;
+}
+.dropdown-item:hover{
+	background-color: #0a0a0a61;
+}
+.home{
+	padding-bottom: 3px;
+}
+.dropdown{
+	cursor: pointer;
 }
 /* END OF NAVBAR */
