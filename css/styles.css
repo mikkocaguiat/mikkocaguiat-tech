@@ -21,20 +21,11 @@
     background-color: #5d5a5a3b;
     color: #0a0a0a;
 }
-/* NAVBAR */
-.container-fluid, .navbar{
+.navbar{
 	background-color: #0a0a0a;
 }
 .navbar-brand{
 	padding: none;
 	font-weight: bold;
 }
-/* END OF NAVBAR */
 /* /////////////////////////////////////// BANNER ////////////////////////////////////////////// */
-
-#HCB_comment_box .submit {
-    background:none; /* Clear twitter bootstrap style. */
-    background-color:#fff;
-    border:1px solid #0a0a0a;
-    color: white;
-}
