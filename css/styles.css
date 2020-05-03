@@ -10,7 +10,7 @@
 }
 .color-custom, .color-custom a{
 	font-weight: bold;
-	color: #ffffff;
+	color: #ffffff !important;
 	text-decoration: none;
 }
 .color-custom a:hover{

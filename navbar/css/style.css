@@ -1,4 +1,4 @@
-/* NAVBAR */
+/* /////////////////////////////////////// BANNER ////////////////////////////////////////////// */
 .top, .navbar{
 	background-color: #0a0a0a;
 }
@@ -10,7 +10,7 @@
 }
 .color-custom, .color-custom a{
 	font-weight: bold;
-	color: #ffffff;
+	color: #ffffff !important;
 	text-decoration: none;
 }
 .color-custom a:hover{
@@ -30,4 +30,4 @@
 .dropdown{
 	cursor: pointer;
 }
-/* END OF NAVBAR */
+/* /////////////////////////////////////// BANNER ////////////////////////////////////////////// */
