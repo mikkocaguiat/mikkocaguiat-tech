@@ -123,6 +123,8 @@ Back to the drawing board as I redesign my website using Adobe Xd for a proper g
 ###### Mon May 4 03:35:43 CST 2020
 I finally managed to finish the navbar code. hurrah! I will be editing the footer then lastly the main page.
 
+###### Tue May 5 00:45:54 CST 2020
+Finished editing my design for the main page and as of now i am trying to apply it to the index.html file. Cross fingers! Lol.
 
 
 

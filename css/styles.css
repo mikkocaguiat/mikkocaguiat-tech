@@ -1,3 +1,6 @@
+body, html {
+	height: 100%; /*MAKE OBJECTS IN FULL PAGE*/
+}
 /* /////////////////////////////////////// NAVBAR ////////////////////////////////////////////// */
 .top, .navbar{
 	background-color: #0a0a0a;
@@ -29,3 +32,15 @@
 	cursor: pointer;
 }
 /* /////////////////////////////////////// BANNER ////////////////////////////////////////////// */
+#front-page{
+	background-image: url('../images/arduino-2.jpg'); 
+	/* Full height */
+	height: 100%;
+
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	color: #ffffff;
+}
