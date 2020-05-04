@@ -129,6 +129,9 @@ Finished editing my design for the main page and as of now i am trying to apply 
 ###### Tue May 5 02:21:55 CST 2020
 Adding my font [Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P?query=code&selection.family=Press+Start+2P)
 
+###### Tue May 5 03:51:00 CST 2020
+Mainpage update. The three sub title introductions are added. Titles are changed to font style Press Start 2P.
+
 
 
 
