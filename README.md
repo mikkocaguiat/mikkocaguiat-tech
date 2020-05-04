@@ -66,7 +66,7 @@ Only use this for duplicate pages
 ```
 6. Always use Google Search Console to index your website
 7. Put Cookie Banner Code
-8. Adding Comment box
+8. Adding Comment box courtesy of [HTMLCommentBox](https://htmlcommentbox.com)
 ```html
 <!-- begin wwww.htmlcommentbox.com -->
  <div id="HCB_comment_box">Comments are loading</div>
