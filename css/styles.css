@@ -33,14 +33,39 @@ body, html {
 }
 /* /////////////////////////////////////// BANNER ////////////////////////////////////////////// */
 #front-page{
-	background-image: url('../images/arduino-2.jpg'); 
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/arduino-2.jpg');
 	/* Full height */
 	height: 100%;
-
 	/* Center and scale the image nicely */
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	
+}
+
+#banner{
+	text-align: center;
+	padding: 100px 50px 50px 50px;
 	color: #ffffff;
+	
+}
+#banner h1{
+	padding: 50px 0px 15px 0px;
+	font-weight: bolder;
+}
+#banner h4{
+	color: #ffffff;
+}
+#banner a{
+	color: #0a0a0a;
+	font-weight: bolder;
+	font-size: larger;
+	font-family: 'Press Start 2P', cursive;
+}
+
+#banner .press-start-banner{
+	padding: 60px 0px 0px 0px;
+	font-family: 'Press Start 2P', cursive;
+}
+#banner .start-btn{
+	padding: 30px 0px 40px 0px;
 }

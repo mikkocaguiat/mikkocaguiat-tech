@@ -126,6 +126,9 @@ I finally managed to finish the navbar code. hurrah! I will be editing the foote
 ###### Tue May 5 00:45:54 CST 2020
 Finished editing my design for the main page and as of now i am trying to apply it to the index.html file. Cross fingers! Lol.
 
+###### Tue May 5 02:21:55 CST 2020
+Adding my font [Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P?query=code&selection.family=Press+Start+2P)
+
 
 
 
