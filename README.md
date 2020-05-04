@@ -117,8 +117,8 @@ All of this will be added to the sitemap of the web site.
 
 ###### Sun May 3 23:03:28 CST 2020
 Back to the drawing board as I redesign my website using Adobe Xd for a proper guide.
-*Font Style for the Banner - [Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P?query=code)
-*Background photo - https://images.unsplash.com/photo-1553408226-d7bf0d27f9e7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1789&q=80
+* Font Style for the Banner - [Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P?query=code)
+* Background photo - https://images.unsplash.com/photo-1553408226-d7bf0d27f9e7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1789&q=80
 
 ###### Mon May 4 03:35:43 CST 2020
 I finally managed to finish the navbar code. hurrah! I will be editing the footer then lastly the main page.
