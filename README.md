@@ -66,6 +66,14 @@ Only use this for duplicate pages
 ```
 6. Always use Google Search Console to index your website
 7. Put Cookie Banner Code
+8. Adding Comment box
+
+<!-- begin wwww.htmlcommentbox.com -->
+ <div id="HCB_comment_box">Comments are loading</div>
+ <link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+ <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24MGX2LNpj9xMWU7Iek3F5u1"+"&opts=16862&num=10&ts=1588595790867");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
+<!-- end www.htmlcommentbox.com -->
+
 <hr/>
 OFFICIAL COLOR PALLETES AS OF <br/>
 
