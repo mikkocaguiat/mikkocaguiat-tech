@@ -139,6 +139,11 @@ Adding my font [Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P
 ###### Tue May 5 03:51:00 CST 2020
 Mainpage update. The three sub title introductions are added. Titles are changed to font style Press Start 2P.
 
+###### Tue May 5 23:54:34 CST 2020
+Added Search Bar. I still used Custom search Engine by Google but integrated it via Elfsight which added a better design feature that the CSE Vanilla version.
+
+
+
 
 
 
