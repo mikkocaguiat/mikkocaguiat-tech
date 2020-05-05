@@ -21,27 +21,48 @@ Files, websites and software used.
 1. Always put your SEO Meta tags.
     <br/>
 ```html
-<meta name="description"
-        content="MGC Tech Tips - is a free online Electronics Tutorial Resource for beginners, hobbyist and students who want to pursue a field in Electronics. This site is a collection of all the note-lectures, circuits and electronic projects that i compiled here in MGC Tech Tips site.">
-    <meta name="keywords" content="DIY, Electronics, Engineering, Tutorial">
-    <meta name="subject" content="Electronics Lecture for all Ages">
-    <meta name="copyright" content="This site is own and maintained personally by MGC Tech Tips Groups">
-    <meta name="language" content="en">
-    <meta name="robots" content="index,follow" />
-    <meta name="revised" content="Sat May 2 03:28:11 CST 2020" />
-    <meta name="author" content="Mikko Caguiat">
-    <meta name="url" content="https://mgctechtips.netlify.app">
-    <meta name="identifier-URL" content="http://mgctechtips.netlify.app">
-    <meta name="category" content="Electronics Lecture, Tutorials, Circuits, and DIY Projects">
-    <meta name="theme-color" content="#343a40">
-    <!--CHANGE TAB COLOR FOR YOUR WEBSITE-->
-    <!-- OG META-TAGS --><br/>
-    <meta property="og:title" content="Electronics Lectures | MGC Tech Tips">
-    <meta property="og:description"
-        content="MGC Tech Tips - is a free online Electronics Tutorial Resource for beginners, hobbyist and students who want to pursue a field in Electronics. This site is a collection of all the note-lectures, circuits and electronic projects that i compiled here in MGC Tech Tips site."><br/>
-    <meta property="og:url" content="https://mgctechtips.netlify.app">
-    <meta property="og:site_name" content="MGC Tech Tips">
-    <meta property="og:type" content="website">
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- SEO Tags-->
+	<meta name="description"
+		content="MGC Tech Tips - is a free online Electronics Tutorial Resource for beginners, hobbyist and students who want to pursue a field in Electronics. This site is a collection of all the note-lectures, circuits and electronic projects that i compiled here in MGC Tech Tips site.">
+	<meta name="keywords" content="DIY, Electronics, Engineering, Tutorial">
+	<meta name="subject" content="Electronics Lecture for all Ages">
+	<meta name="copyright" content="This site is own and maintained personally by MGC Tech Tips Groups">
+	<meta name="language" content="en">
+	<meta name="robots" content="index,follow" />
+	<meta name="revised" content="Sat May 2 03:28:11 CST 2020" />
+	<meta name="author" content="Mikko Caguiat">
+	<meta name="url" content="https://mgctechtips.netlify.app">
+	<meta name="identifier-URL" content="http://mgctechtips.netlify.app">
+	<meta name="category" content="Electronics Lecture, Tutorials, Circuits, and DIY Projects">
+	<meta name="theme-color" content="#343a40">
+	<meta name="robots" content="follow">
+	<meta name="googlebot" content="index">
+	<!--CHANGE TAB COLOR FOR YOUR WEBSITE-->
+	<!-- OG META-TAGS -->
+	<meta property="og:title" content="Electronics Lectures | MGC Tech Tips">
+	<meta property="og:description"
+		content="MGC Tech Tips - is a free online Electronics Tutorial Resource for beginners, hobbyist and students who want to pursue a field in Electronics. This site is a collection of all the note-lectures, circuits and electronic projects that i compiled here in MGC Tech Tips site.">
+	<meta property="og:image" content="https://mgctechtips.netlify.app/images/arduino-2.jpg">
+	<meta property="og:url" content="http://mgctechtips.netlify.app">
+	<meta name="twitter:card" content="MGC Tech Tips">
+	<meta property="og:site_name" content="MGC Tech Tips">
+	<meta name="twitter:image:alt" content="MGC Tech Tips">
+	<!-- END OF OG TAGS -->
+	<!-- ICON LINK -->
+	<link rel="icon" href="MGCTECHTIPS.ico">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="./css/styles.css">
+	<link rel="stylesheet" type="text/css" href="./css/cookie.css">
+	<link rel="stylesheet" type="text/css" href="./css/lightbox.css">
+	<!-- FONT FOR THE MAINPAGE -->
+	<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+	<!-- CANONICAL LINK FOR MAIN PAGE/INDEX -->
+	<link rel="canonical" href="https://mgctechtips.netlify.app">
+	<title>Electronics Lectures | MGC Tech Tips</title>
 ```
 ##### CANONICAL LINK
 Only use this for duplicate pages
@@ -142,7 +163,8 @@ Mainpage update. The three sub title introductions are added. Titles are changed
 ###### Tue May 5 23:54:34 CST 2020
 Added Search Bar. I still used Custom search Engine by Google but integrated it via Elfsight which added a better design feature that the CSE Vanilla version.
 
-
+###### Wed May 6 04:45:00 CST 2020
+Finished editing Policy Folder and adding valuable meta tags and og-tags
 
 
 
