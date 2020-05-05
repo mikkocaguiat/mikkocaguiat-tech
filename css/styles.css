@@ -79,6 +79,7 @@ body, html {
 
 #banner .start-btn a{
 	height: 60px;
+	padding-top: 15px;
 }
 /* /////////////////////////////////////// MAINPAGE ////////////////////////////////////////////// */
 .mainpage_1 h6{
