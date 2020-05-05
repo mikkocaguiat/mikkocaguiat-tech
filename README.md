@@ -74,6 +74,13 @@ Only use this for duplicate pages
  <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} (function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="https://www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&mod=%241%24wq1rdBcg%24MGX2LNpj9xMWU7Iek3F5u1"+"&opts=16862&num=10&ts=1588595790867");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
 <!-- end www.htmlcommentbox.com -->
 ```
+9. ##### Custom Search Engine Key - AIzaSyDb_pfLQNZ_Qp-u-A-aOmGuyrJlpAIkkb8
+10. Trying ElfSight Custom Search Engine which is connected to my CSE in google.
+    Install this code anywhere you need it. i prefer putting it in the home page. 
+```html
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <div class="elfsight-app-edbbf4f1-ab31-4317-bcf8-aa98d69d4337"></div>
+```
 <hr/>
 OFFICIAL COLOR PALLETES AS OF <br/>
 
