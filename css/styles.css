@@ -38,10 +38,10 @@ body, html {
 	height: 40px;
 }
 /* /////////////////////////////////////// BANNER ////////////////////////////////////////////// */
-#front-page{
+#banner{
 	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/arduino-2.jpg');
 	/* Full height */
-	height: 100%;
+	height: 90%;
 	/* Center and scale the image nicely */
 	background-position: center;
 	background-repeat: no-repeat;
@@ -50,12 +50,11 @@ body, html {
 
 #banner{
 	text-align: center;
-	padding: 70px 30px 30px 30px;
+	padding: 130px 30px 30px 30px;
 	color: #ffffff;
 	
 }
 #banner h1{
-	padding: 30px 0px 15px 0px;
 	font-weight: bolder;
 }
 #banner h4{
@@ -72,9 +71,15 @@ body, html {
 	padding: 60px 0px 0px 0px;
 	font-family: 'Press Start 2P', cursive;
 }
-/* #banner .start-btn{
-	padding: 30px 0px 40px 0px;
-} */
+#banner .start-btn{
+	padding: 30px 0px 0px 0px;
+	max-width: 500px;
+	margin: auto;
+}
+
+#banner .start-btn a{
+	height: 60px;
+}
 /* /////////////////////////////////////// MAINPAGE ////////////////////////////////////////////// */
 .mainpage_1 h6{
 	font-family: 'Press Start 2P';
