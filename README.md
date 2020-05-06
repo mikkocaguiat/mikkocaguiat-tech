@@ -111,6 +111,19 @@ OFFICIAL COLOR PALLETES AS OF <br/>
 3. #5d5a5a3b - for the hover color in the navbar and footer.<!--EDITING THIS SOON IF NOT GOOD FOR THE DESIGN-->
  
 ---
+##### ROBOTS.TXT
+```text
+			User-agent: *
+			Disallow: /images/
+			Disallow: /Policy/
+			Disallow: /*.md$
+			Allow: /images/Support_Banner.png
+			Allow: /images/Ads.gif
+
+			Sitemap: https://mgctechtips.netlify.app/sitemap.xml
+```
+
+---
 JOURNAL
 
 ###### Sat May 2 22:41:00 CST 2020
@@ -165,6 +178,12 @@ Added Search Bar. I still used Custom search Engine by Google but integrated it 
 ###### Wed May 6 04:45:00 CST 2020
 Finished editing Policy Folder and adding valuable meta tags and og-tags
 
+###### Thu May 7 05:27:37 CST 2020
+Added Ads bar to the pages and drafted the walkthrough container where lectures, circuits, and projects will be inserted
+Finally drafted my about page and sitemap for the whole website
+
+###### Thu May 7 05:29:26 CST 2020
+Added robots.txt inorder for my images folder and other non essential files not to be followed and indexed by search engines.
 
 
 
