@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /images/
+Disallow: /Policy/
+Disallow: /*.md$
+Disallow: /*.xml$
+Allow: /images/Support_Banner.png
+Allow: /images/Ads.gif
+
+Sitemap: https://mgctechtips.netlify.app/sitemap.xml
