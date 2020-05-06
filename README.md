@@ -13,7 +13,7 @@ Files, websites and software used.
 4. [Bootsrap 4](https://getbootstrap.com/) as my main CSS source.
 5. [Lokesh Dhakar's Light Box](https://lokeshdhakar.com/projects/lightbox2/) script for loading smoothly my images. 
 6. [Unplash](https://unsplash.com/) - special mention to unplash and the contributors for my copies of great electronics photos. Soon I'll be incorporating my own photos but for now i'll be using photos from them. Copyright to the owners. I am planning to put a carousel to the bottom to all the sources i copied. 
-7. [Htmlcommentbox](www.htmlcommentbox.com) - this plugin is still work in progress. Comment section will be incorporated to each topic that i will be posting. 
+7. [ElfSight](https://elfsight.com/) - this plugin is still work in progress. Comment section will be incorporated to each topic that i will be posting. 
 
 ---
 
@@ -124,7 +124,7 @@ OFFICIAL COLOR PALLETES AS OF <br/>
 ```
 
 ---
-JOURNAL
+### JOURNAL
 
 ###### Sat May 2 22:41:00 CST 2020
 
