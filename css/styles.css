@@ -82,7 +82,7 @@ body, html {
 
 
 /* /////////////////////////////////////// MAINPAGE ////////////////////////////////////////////// */
-.mainpage_1 h6{
+.mainpage_main h6, .mainpage_lectures h6{
 	font-family: 'Press Start 2P';
 	text-transform: uppercase;
 	margin-top: 20px;
