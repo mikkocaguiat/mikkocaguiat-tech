@@ -96,7 +96,7 @@ Only use this for duplicate pages
 9. ##### Custom Search Engine Key - AIzaSyDb_pfLQNZ_Qp-u-A-aOmGuyrJlpAIkkb8
    ##### Search Engine ID - 009398583278252516190:oghhihytkoz
 10. Trying ElfSight Custom Search Engine which is connected to my CSE in google.
-    Install this code anywhere you need it. i prefer putting it in the home page. 
+    Install this code anywhere you need it. i prefer putting it in navbar panel. 
 ```html
     <script src="https://apps.elfsight.com/p/platform.js" defer></script>
     <div class="elfsight-app-edbbf4f1-ab31-4317-bcf8-aa98d69d4337"></div>
