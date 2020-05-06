@@ -202,3 +202,16 @@ transition: all 250ms ease-in-out 0s;
 	border-radius: 8px;
 	cursor: pointer;
   }
+/* ///////////////////////////////////Drafting Blink Animation////////////////////////////////////////////*/
+/* ONLY USE THIS WHEN COMPOSING ARTICLES THAT ARE COMING SOON */
+  .blinking{
+	animation:blinkingText 3s infinite;
+}
+
+@keyframes blinkingText{
+		0%{     color: #000;    }
+        45%{    color: transparent; }
+        50%{    color: transparent; }
+        65%{    color:transparent;  }
+        100%{   color: #000;    }
+}
