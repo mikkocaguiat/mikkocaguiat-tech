@@ -215,3 +215,11 @@ transition: all 250ms ease-in-out 0s;
         65%{    color:transparent;  }
         100%{   color: #000;    }
 }
+
+
+/* /////////////////////////////////////SEARCH ENGINE////////////////////////////////////////////////// */
+/* .cse .gsc-control-cse, .gsc-control-cse{
+	border: none !important;
+	background-color: #0a0a0a !important;
+	padding: 0 0 0 1rem !important;
+} */

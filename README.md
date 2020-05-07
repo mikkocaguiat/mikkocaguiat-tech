@@ -97,9 +97,20 @@ Only use this for duplicate pages
    ##### Search Engine ID - 009398583278252516190:oghhihytkoz
 10. Trying ElfSight Custom Search Engine which is connected to my CSE in google.
     Install this code anywhere you need it. i prefer putting it in navbar panel. 
+	EDIT as of
+	###### Thu May 7 22:35:58 CST 2020 
+	I removed elfsight due to its search limits.
 ```html
+	<!-- REMOVED as of ###### Thu May 7 22:36:58 CST 2020 -->
     <script src="https://apps.elfsight.com/p/platform.js" defer></script>
     <div class="elfsight-app-edbbf4f1-ab31-4317-bcf8-aa98d69d4337"></div>
+```
+##### Replaced by original Search Engine of Google
+```html
+		<!-- GOOGLE SEARCH -->
+			<script async src="https://cse.google.com/cse.js?cx=009398583278252516190:pgrrtjs5c1m"></script>
+			<div class="gcse-search"></div>
+		<!-- END OF GOOGLE SEARCH -->
 ```
 <hr/>
 OFFICIAL COLOR PALLETES AS OF <br/>
@@ -184,6 +195,9 @@ Finally drafted my about page and sitemap for the whole website
 
 ###### Thu May 7 05:29:26 CST 2020
 Added robots.txt inorder for my images folder and other non essential files not to be followed and indexed by search engines.
+
+###### Thu May 7 23:50:33 CST 2020
+Due to Elf sights limits for number of searches. i went bank to the original google custom search. it works fine but it needs refinement. 
 
 
 
