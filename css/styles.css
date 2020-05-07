@@ -1,7 +1,8 @@
 body, html {
-	height: 100%; /*MAKE OBJECTS IN FULL PAGE*/
+	height: 100%;
+	font-family: 'lato', sans-serif;
 }
-/* /////////////////////////////////////// NAVBAR ////////////////////////////////////////////// */
+/* /////// NAVBAR //// */
 #top-navbar, .top, .navbar{
 	background-color: #0a0a0a !important;
 }
@@ -32,12 +33,11 @@ body, html {
 .dropdown{
 	cursor: pointer;
 }
-
 .search{
 	padding: 0%;
 	height: 40px;
 }
-/* /////////////////////////////////////// BANNER ////////////////////////////////////////////// */
+/* /////////// BANNER ///// */
 #banner{
 	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../images/arduino-2.jpg');
 	/* Center and scale the image nicely */
@@ -48,8 +48,7 @@ body, html {
 #banner{
 	text-align: center;
 	padding: 130px 30px 100px 30px;
-	color: #ffffff;
-	
+	color: #ffffff;	
 }
 #banner h1{
 	font-weight: bolder;
@@ -63,7 +62,6 @@ body, html {
 	font-size: larger;
 	font-family: 'Press Start 2P', cursive;
 }
-
 #banner .press-start-banner{
 	padding: 60px 0px 0px 0px;
 	font-family: 'Press Start 2P', cursive;
@@ -73,15 +71,12 @@ body, html {
 	max-width: 500px;
 	margin: auto;
 }
-
 #banner .start-btn a{
 	height: 60px;
 	padding-top: 15px;
 	border-radius: 30px;
 }
-
-
-/* /////////////////////////////////////// MAINPAGE ////////////////////////////////////////////// */
+/* ///////MAINPAGE //////// */
 .mainpage_main h6, .mainpage_lectures h6{
 	font-family: 'Press Start 2P';
 	text-transform: uppercase;
@@ -89,16 +84,10 @@ body, html {
     margin-bottom: 15px;
     font-weight: bold;
 }
-
-
-
-
-
-/* ////////////////////////////////////////FOOTER////////////////////////////////////////////////// */
+/* /////////FOOTER//// */
 /* Main Footer */
 footer .main-footer{	padding: 20px 0;	background: #0f0f0f;}
 footer ul{	padding-left: 0;	list-style: none;}
-
 /* Copy Right Footer */
 .footer-copyright {	background: #0a0a0a;	padding: 5px 0;}
 .footer-copyright .logo {    display: inherit;}
@@ -108,22 +97,17 @@ footer ul{	padding-left: 0;	list-style: none;}
 .footer-copyright nav ul li a{	color: #969696;}
 .footer-copyright nav ul li:first-child {	border: medium none;	padding-left: 0;}
 .footer-copyright p {	color: #969696;	margin: 2px 0 0;}
-
 /* Footer Top */
 .footer-top{	background: #252525;	padding-bottom: 30px;	margin-bottom: 30px;	border-bottom: 3px solid #222;}
-
 /* Footer transparent */
 footer.transparent .footer-top, footer.transparent .main-footer{	background: transparent;}
 footer.transparent .footer-copyright{	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3) ;}
-
 /* Footer light */
 footer.light .footer-top{	background: #f9f9f9;}
 footer.light .main-footer{	background: #f9f9f9;}
 footer.light .footer-copyright{	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.3) ;}
-
 /* Footer 4 */
 .footer- .logo {    display: inline-block;}
-
 /*==================== 
 	Widgets 
 ====================== */
@@ -167,10 +151,8 @@ box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 -ms-transition: all 250ms ease-in-out 0s;
 -o-transition: all 250ms ease-in-out 0s;
 transition: all 250ms ease-in-out 0s;
-
 }
-
-/* ///////////////////////////////////COOKIES/////////////////////////////////////////////*/
+/* //////////////COOKIES////*/
 .cookie-container {
 	position: fixed;
 	bottom: -100%;
@@ -183,15 +165,12 @@ transition: all 250ms ease-in-out 0s;
 	font-size: 18px;
 	transition: 300ms;
   }
-  
   .cookie-container.active {
 	bottom: 0;
   }
-  
   .cookie-container a {
 	color: #f5f6fa;
   }
-  
   .cookie-btn {
 	background: #ffffff;
 	border: 0;
@@ -202,12 +181,14 @@ transition: all 250ms ease-in-out 0s;
 	border-radius: 8px;
 	cursor: pointer;
   }
-/* ///////////////////////////////////Drafting Blink Animation////////////////////////////////////////////*/
+/* /////Drafting Blink Animation///*/
 /* ONLY USE THIS WHEN COMPOSING ARTICLES THAT ARE COMING SOON */
+/* <div class="row">
+	<h6><span class="blinking">Still drafting my speech....</span></h6>
+</div> */
   .blinking{
 	animation:blinkingText 3s infinite;
 }
-
 @keyframes blinkingText{
 		0%{     color: #000;    }
         45%{    color: transparent; }
@@ -215,11 +196,41 @@ transition: all 250ms ease-in-out 0s;
         65%{    color:transparent;  }
         100%{   color: #000;    }
 }
+/* //ABOUT PROFILE */
+.about_content{
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url('../sites/about/about_2.jpg');
+	border-radius: 15px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #ffffff;
+	text-align: center;
+}
+.page_info p{
+	padding: 35px;
+	text-align: justify;
+	font-size: larger;
+}
+.profile{
+	padding: 0px 20px 20px 20px;
+}
+.profile img{
+	height: 150px;
+	margin: auto;
+	display: block;
+}
+.social_accounts a{
+	margin: auto;
+	padding: 10px;
+}
+.social_accounts a:hover{
+	margin: auto;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #5a5a5a;
+}
+.content{
+	text-align: justify;
+	padding: 10px 35px 35px 35px;
+}
 
 
-/* /////////////////////////////////////SEARCH ENGINE////////////////////////////////////////////////// */
-/* .cse .gsc-control-cse, .gsc-control-cse{
-	border: none !important;
-	background-color: #0a0a0a !important;
-	padding: 0 0 0 1rem !important;
-} */
