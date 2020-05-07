@@ -212,11 +212,13 @@ transition: all 250ms ease-in-out 0s;
 }
 .profile{
 	padding: 0px 20px 20px 20px;
+	
 }
 .profile img{
 	height: 150px;
 	margin: auto;
 	display: block;
+	border: 5px solid #ffffff;
 }
 .social_accounts a{
 	margin: auto;
