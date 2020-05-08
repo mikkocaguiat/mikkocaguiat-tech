@@ -235,6 +235,8 @@ transition: all 250ms ease-in-out 0s;
 	padding: 10px 35px 35px 35px;
 }
 
-/* twitter/////// */
-
+/* BLOG CONTENT */
+#lecture p{
+	text-align: justify;
+}
 
