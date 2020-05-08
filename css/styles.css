@@ -239,6 +239,9 @@ transition: all 250ms ease-in-out 0s;
 #lecture p{
 	text-align: justify;
 }
+.blog_content .btn{
+	float: right;
+}
 .blog_content .image_1{
 	width: 250px;
 	font-size:80%;
