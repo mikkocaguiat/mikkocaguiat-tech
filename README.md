@@ -112,6 +112,12 @@ Only use this for duplicate pages
 			<div class="gcse-search"></div>
 		<!-- END OF GOOGLE SEARCH -->
 ```
+11. Social Media Sharing Tags
+```html
+		<!-- Go to www.addthis.com/dashboard to customize your tools -->
+		<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5eb5946766bcf960"></script>
+
+```
 <hr/>
 OFFICIAL COLOR PALLETES AS OF <br/>
 
@@ -199,6 +205,9 @@ Added robots.txt inorder for my images folder and other non essential files not 
 ###### Thu May 7 23:50:33 CST 2020
 Due to Elf sights limits for number of searches. i went bank to the original google custom search. it works fine but it needs refinement. 
 
+###### Sat May 9 00:40:30 CST 2020
+Added a blog post about Brief History of Electronics! 
+I also put a code for tweet like and share button for the blog!
 
 
 
