@@ -123,6 +123,18 @@ INLINE TOOL
         <!-- Go to www.addthis.com/dashboard to customize your tools -->
         <div class="addthis_inline_share_toolbox_jryy"></div>
 ```
+12. Recommended for you button
+```html
+	<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5eb5946766bcf960"></script>
+```
+Inline tool
+```html
+	
+                <!-- Go to www.addthis.com/dashboard to customize your tools -->
+                <div class="addthis_relatedposts_inline"></div>
+            
+```
 <hr/>
 OFFICIAL COLOR PALLETES AS OF <br/>
 
