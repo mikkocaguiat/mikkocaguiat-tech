@@ -9,42 +9,52 @@
 
 <url>
   <loc>https://mgctechtips.netlify.app/</loc>
-  <lastmod>2020-05-08T19:28:34+00:00</lastmod>
+  <lastmod>2020-05-10T16:13:14+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://mgctechtips.netlify.app/sites/lecture/lecture.html</loc>
-  <lastmod>2020-05-08T19:28:34+00:00</lastmod>
+  <loc>https://mgctechtips.netlify.app/lecture/lecture.html</loc>
+  <lastmod>2020-05-10T16:13:14+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mgctechtips.netlify.app/sites/circuits/circuits.html</loc>
-  <lastmod>2020-05-08T19:28:34+00:00</lastmod>
+  <loc>https://mgctechtips.netlify.app/circuits/circuits.html</loc>
+  <lastmod>2020-05-10T16:13:14+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mgctechtips.netlify.app/sites/projects/projects.html</loc>
-  <lastmod>2020-05-08T19:28:34+00:00</lastmod>
+  <loc>https://mgctechtips.netlify.app/projects/projects.html</loc>
+  <lastmod>2020-05-10T16:13:14+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mgctechtips.netlify.app/sites/about/about.html</loc>
-  <lastmod>2020-05-08T19:28:34+00:00</lastmod>
+  <loc>https://mgctechtips.netlify.app/about/about.html</loc>
+  <lastmod>2020-05-10T16:13:14+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://mgctechtips.netlify.app/sites/lecture/history/history.html</loc>
-  <lastmod>2020-05-08T19:28:34+00:00</lastmod>
+  <loc>https://mgctechtips.netlify.app/lecture/history/history.html</loc>
+  <lastmod>2020-05-10T16:13:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mgctechtips.netlify.app/lecture/history/jjthomson</loc>
+  <lastmod>2020-05-10T16:13:14+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://mgctechtips.netlify.app/sitemap.html</loc>
-  <lastmod>2020-05-08T19:28:34+00:00</lastmod>
+  <lastmod>2020-05-10T16:13:14+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://mgctechtips.netlify.app/index.html</loc>
-  <lastmod>2020-05-08T19:28:34+00:00</lastmod>
+  <lastmod>2020-05-10T16:13:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://mgctechtips.netlify.app/lecture/history/pioneers</loc>
+  <lastmod>2020-05-10T16:13:14+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
