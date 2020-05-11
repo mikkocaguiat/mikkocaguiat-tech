@@ -276,4 +276,8 @@ input[type=text], select, textarea {
   input[type=submit]:hover {
 	background-color: #4B92DC;
   }
-  
+  /* CARD PADDING */
+  .col-md-4{
+	  padding-left: 5px;
+	  padding-right: 5px;
+  }
