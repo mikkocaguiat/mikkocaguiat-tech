@@ -4,7 +4,7 @@ body, html {
 }
 /* /////// NAVBAR //// */
 #top-navbar, .top, .navbar{
-	background-color: #0a0a0a !important;
+	background-color: #011F27 !important;
 }
 .navbar-brand{
 	padding: none;
@@ -18,14 +18,14 @@ body, html {
 	text-decoration: none;
 }
 .color-custom a:hover{
-	color: #5a5a5a !important;
+	color: #F38749 !important;
 }
 .dropdown-menu a{
-	color: #0a0a0a !important;
+	color: #011F27 !important;
 }
 .dropdown-menu a:hover{
-	background-color: #0a0a0a30;
-	color: #0a0a0a !important;
+	background-color: #F3874999;
+	color: #011F27 !important;
 }
 .home{
 	padding-bottom: 3px;
@@ -86,17 +86,17 @@ body, html {
 }
 /* /////////FOOTER//// */
 /* Main Footer */
-footer .main-footer{	padding: 20px 0;	background: #0f0f0f;}
+footer .main-footer{	padding: 20px 0;	background: #011F27;}
 footer ul{	padding-left: 0;	list-style: none;}
 /* Copy Right Footer */
-.footer-copyright {	background: #0a0a0a;	padding: 5px 0;}
+.footer-copyright {	background:  #025158;	padding: 5px 0;}
 .footer-copyright .logo {    display: inherit;}
 .footer-copyright nav {    float: right;    margin-top: 5px;}
 .footer-copyright nav ul {	list-style: none;	margin: 0;	padding: 0;}
 .footer-copyright nav ul li {	border-left: 1px solid #505050;	display: inline-block;	line-height: 12px;	margin: 0;	padding: 0 8px;}
 .footer-copyright nav ul li a{	color: #969696;}
 .footer-copyright nav ul li:first-child {	border: medium none;	padding-left: 0;}
-.footer-copyright p {	color: #969696;	margin: 2px 0 0;}
+.footer-copyright p {	color: #fff;	margin: 2px 0 0;}
 /* Footer Top */
 .footer-top{	background: #252525;	padding-bottom: 30px;	margin-bottom: 30px;	border-bottom: 3px solid #222;}
 /* Footer transparent */
@@ -137,7 +137,7 @@ footer.light .footer-copyright{	background: none repeat scroll 0 0 rgba(255, 255
 
 ul.social-footer2 {	margin: 0;padding: 0;	width: auto;}
 ul.social-footer2 li {display: inline-block;padding: 0;}
-ul.social-footer2 li a:hover {background-color:#0069D9;}
+ul.social-footer2 li a:hover {background-color:#F38749;}
 ul.social-footer2 li a {display: block;	height:30px;width: 50px;text-align: center; border-radius: 3px;}
 .btn{background-color: #0069D9; color:#fff;}
 .btn:hover, .btn:focus, .btn.active {background: #4b92dc;color: #fff;
@@ -158,7 +158,7 @@ transition: all 250ms ease-in-out 0s;
 	bottom: -100%;
 	left: 0;
 	right: 0;
-	background: #0a0a0a;
+	background: #011F27;
 	color: #f5f6fa;
 	padding: 10px 32px;
 	box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.39);
@@ -174,12 +174,16 @@ transition: all 250ms ease-in-out 0s;
   .cookie-btn {
 	background: #ffffff;
 	border: 0;
-	color: #0a0a0a;
+	color: #011F27;
 	padding: 12px 48px;
 	font-size: 18px;
 	margin-bottom: 16px;
 	border-radius: 8px;
 	cursor: pointer;
+  }
+  .cookie-btn:hover{
+	  background: #025158;
+	  color: #ffffff;
   }
 /* /////Drafting Blink Animation///*/
 /* ONLY USE THIS WHEN COMPOSING ARTICLES THAT ARE COMING SOON */
