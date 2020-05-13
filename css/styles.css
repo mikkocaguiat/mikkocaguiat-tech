@@ -158,7 +158,7 @@ transition: all 250ms ease-in-out 0s;
 	bottom: -100%;
 	left: 0;
 	right: 0;
-	background: #011F27;
+	background: rgba(1, 31, 39, 0.959);	/*#011F27*/
 	color: #f5f6fa;
 	padding: 10px 32px;
 	box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.39);
