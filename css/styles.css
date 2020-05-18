@@ -139,8 +139,8 @@ ul.social-footer2 {	margin: 0;padding: 0;	width: auto;}
 ul.social-footer2 li {display: inline-block;padding: 0;}
 ul.social-footer2 li a:hover {background-color:#F38749;}
 ul.social-footer2 li a {display: block;	height:30px;width: 50px;text-align: center; border-radius: 3px;}
-.btn{background-color: #fff; color:#000;}
-.btn:hover, .btn:focus, .btn.active {background: #141414;color: #fff;
+.btn{background-color: #139DF8; color:#000;}
+.btn:hover, .btn:focus, .btn.active {background: rgb(13, 93, 146);color: #fff;
 -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 -ms-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
