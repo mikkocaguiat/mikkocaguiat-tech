@@ -1,0 +1,44 @@
+select option[value="0"] {
+    background: black;
+    color: white;
+}
+select option[value="1"] {
+    background: brown;
+    color: white;
+}
+select option[value="2"] {
+    background: red;
+    color: white;
+} 
+select option[value="3"] {
+    background: orange;
+    color: white;
+}  
+select option[value="4"] {
+    background: yellow;
+    color: white;
+}
+select option[value="5"] {
+    background: green;
+    color: white;
+}
+select option[value="6"] {
+    background: blue;
+    color: white;
+}
+select option[value="7"] {
+    background: violet;
+    color: white;
+}
+select option[value="8"] {
+    background: grey;
+    color: white;
+}
+select option[value="9"] {
+    background: white;
+    color: white;
+}
+
+.col{
+    text-align: center;
+}

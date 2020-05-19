@@ -55,7 +55,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
 		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="../css/styles.css">
-	<link rel="stylesheet" type="text/css" href="../css/lightbox.css">
+	<link rel="stylesheet" type="text/css" href="../css/app.css">
 	<!-- FONT FOR THE MAINPAGE -->
 	<!-- CANONICAL LINK FOR MAIN PAGE/INDEX -->
 	<link rel="canonical" href="##################">
@@ -99,7 +99,7 @@
 										alt="MGC TECH TIPS PROJECTS ICON"> PROJECTS</a>
 								<a class="dropdown-item" href="../apps/app.html"><img
 										src="../images/DRK-ICONS/CALCULATOR.png" height="16"
-										alt="MGC TECH TIPS APPS ICON">  APPS</a>
+										alt="MGC TECH TIPS APPS ICON"> APPS</a>
 							</div>
 						</li>
 						<li class="nav-item">
@@ -122,28 +122,92 @@
 				<!-- START OF COLUMN -->
 				<!-- START OF COL-MD-9 -->
 				<div class="col-md-9 col-sm-12">
-					<h1 style="font-weight: bolder;"><img
-						src="../images/DRK-ICONS/RESISTOR.png" height="45px"
-						alt="Resistor Color Code"> Resistor Color Code | MGC Tech Tips</h1>
+					<h1 style="font-weight: bolder;"><img src="../images/DRK-ICONS/RESISTOR.png" height="45px"
+							alt="Resistor Color Code"> Resistor Color Code | MGC Tech Tips</h1>
 					<hr>
 					<!-- Go to www.addthis.com/dashboard to customize your tools -->
 					<div class="addthis_inline_share_toolbox_jryy"></div>
-					<!--  -->
-					<form name="MGC Tech Tips" method="POST" data-netlify="true" data-netlify-recaptcha="true" action="./Thank_You.html">
-						<label for="fname">First Name</label>
-						<input type="text" id="fname" name="firstname" placeholder="Your name.." required>
-						<label for="lname">Last Name</label>
-						<input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
-						<label for="email">E-MAIL</label>
-						<input type="email" id="email" name="email" placeholder="Your e-mail.." required>
-						<label for="subject">Subject</label>
-						<input type="text" id="subject" name="subject" placeholder="Subject.." required>
-						<textarea id="subject" name="subject" placeholder="Write your feedback/queries here" style="height:200px" required></textarea>
-						<div class="mx-auto d-block" data-netlify-recaptcha="true"></div>
-						<p></p>
-						<input type="submit" value="Submit">
-				</form>
-					<!--  -->
+					<!-- TABS -->
+					<nav>
+						<div class="nav nav-tabs" id="nav-tab" role="tablist">
+							<a class="nav-item nav-link active" id="nav-4band-tab" data-toggle="tab" href="#nav-4band"
+								role="tab" aria-controls="nav-4band" aria-selected="true">4 Bands</a>
+							<a class="nav-item nav-link" id="nav-5band-tab" data-toggle="tab" href="#nav-5band"
+								role="tab" aria-controls="nav-5band" aria-selected="false">5 Bands</a>
+							<a class="nav-item nav-link" id="nav-6band-tab" data-toggle="tab" href="#nav-6band"
+								role="tab" aria-controls="nav-6band" aria-selected="false">6 Bands</a>
+						</div>
+					</nav>
+					<div class="tab-content" id="nav-tabContent">
+						<!-- 4bands -->
+						<div class="tab-pane fade show active" id="nav-4band" role="tabpanel"
+							aria-labelledby="nav-4band-tab">
+							<div class="row mx-auto">
+								<img src="./images/colorcode.png" alt="color code" height="200px">
+							</div>
+							<form>
+								<div class="row mt-3">
+									<div class="col">
+										<label for="exampleFormControlSelect1">1st Band of Color</label>
+										<select class="form-control" id="exampleFormControlSelect1">
+											<option value="0">Black	0</option>
+											<option value="1">Brown	1</option>
+											<option value="2">Red		2</option>
+											<option value="3">Orange	3</option>
+											<option value="4">Yellow	4</option>
+											<option value="5">Green	5</option>
+											<option value="6">Blue	6</option>
+											<option value="7">Violet	7</option>
+											<option value="8">Grey		8</option>
+											<option value="9">White	9</option>
+										</select>
+									</div>
+									<div class="col">
+										<label for="exampleFormControlSelect1">2nd Band of Color</label>
+										<select class="form-control" id="exampleFormControlSelect1">
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
+											<option>4</option>
+											<option>5</option>
+										</select>
+									</div>
+									<div class="col">
+										<label for="exampleFormControlSelect1">Multiplier</label>
+										<select class="form-control" id="exampleFormControlSelect1">
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
+											<option>4</option>
+											<option>5</option>
+										</select>
+									</div>
+									<div class="col">
+										<label for="exampleFormControlSelect1">Tolerance</label>
+										<select class="form-control" id="exampleFormControlSelect1">
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
+											<option>4</option>
+											<option>5</option>
+										</select>
+									</div>
+								</div>
+							</form>
+						</div>
+						<!-- END of 4bands -->
+						<!-- 5bands -->
+						<div class="tab-pane fade" id="nav-5band" role="tabpanel" aria-labelledby="nav-5band-tab">
+
+						</div>
+						<!-- end of 5bands -->
+						<!-- 6bands -->
+						<div class="tab-pane fade" id="nav-6band" role="tabpanel" aria-labelledby="nav-6band-tab">
+
+						</div>
+						<!-- end of 6bands -->
+					</div>
+					<!-- TABS -->
 					<script src="https://utteranc.es/client.js" repo="mikkocaguiat/mikkocaguiat-tech"
 						issue-term="Resistor Color Code | MGC Tech Tips" theme="github-light" crossorigin="anonymous"
 						async></script>
@@ -316,8 +380,6 @@
 		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
 		crossorigin="anonymous"></script>
 	<script src="../js/cookie.js"></script>
-	<script src="../js/lightbox-plus-jquery.js"></script>
-	<!--This is for the smooth transition of photos-->
 </body>
 
 </html>
