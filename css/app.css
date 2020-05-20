@@ -12,11 +12,11 @@ select option[value="2"] {
 } 
 select option[value="3"] {
     background: orange;
-    color: white;
+    color: black;
 }  
 select option[value="4"] {
     background: yellow;
-    color: white;
+    color: black;
 }
 select option[value="5"] {
     background: green;
@@ -27,17 +27,26 @@ select option[value="6"] {
     color: white;
 }
 select option[value="7"] {
-    background: violet;
+    background: rgb(233, 24, 233);
     color: white;
 }
 select option[value="8"] {
     background: grey;
-    color: white;
+    color: black;
 }
 select option[value="9"] {
     background: white;
-    color: white;
+    color: black;
 }
+select option[value="10"] {
+    background: gold;
+    color: black;
+}
+select option[value="11"] {
+    background: silver;
+    color: black;
+}
+
 
 .col{
     text-align: center;
