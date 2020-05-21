@@ -66,3 +66,39 @@ function result_5band(){
 
     document.getElementById("ohmvalue5").value=resDisplay;
 }
+function result_6band(){
+    var mult, resDisplay, res;
+    var firstband6b, secondband6b, thirdband6b, multiplier6b, tolerance6b, ppm6b;
+
+    firstband6b = document.getElementById("firstband6b").value;
+
+    secondband6b = document.getElementById("secondband6b").value;
+
+    thirdband6b = document.getElementById("thirdband6b").value;
+
+    multiplier6b = document.getElementById("multiplier6b").value;
+
+    tolerance6b = document.getElementById("tolerance6b").value;
+
+    ppm6b = document.getElementById("ppm6b").value;
+
+    res = ((firstband6b + secondband6b + thirdband6b) * multiplier6b);
+
+    if (res >= 1e9) {
+        res /= 1e9;
+        mult = "G";
+    } else if (res >= 1e6) {
+        res /= 1e6;
+        mult = "M";
+    } else if (res >= 1e3) {
+        res /= 1e3;
+        mult = "k";
+    } else {
+        mult = " ";
+    }
+
+    resDisplay = res + mult + " Ω";
+    resDisplay += " " + tolerance6b + " " + ppm6b + "ppm/K";
+
+    document.getElementById("ohmvalue6").value=resDisplay;
+}
