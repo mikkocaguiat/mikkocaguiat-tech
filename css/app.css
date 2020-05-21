@@ -1,48 +1,48 @@
-select option[value="0"] {
+.black{
     background: black;
     color: white;
 }
-select option[value="1"] {
+.brown{
     background: brown;
     color: white;
 }
-select option[value="2"] {
+.red{
     background: red;
     color: white;
 } 
-select option[value="3"] {
+.orange{
     background: orange;
     color: black;
 }  
-select option[value="4"] {
+.yellow{
     background: yellow;
     color: black;
 }
-select option[value="5"] {
+.green{
     background: green;
     color: white;
 }
-select option[value="6"] {
+.blue{
     background: blue;
     color: white;
 }
-select option[value="7"] {
+.violet{
     background: rgb(233, 24, 233);
     color: white;
 }
-select option[value="8"] {
+.grey{
     background: grey;
     color: black;
 }
-select option[value="9"] {
+.white{
     background: white;
     color: black;
 }
-select option[value="10"] {
+.gold{
     background: gold;
     color: black;
 }
-select option[value="11"] {
+.silver {
     background: silver;
     color: black;
 }
