@@ -25,8 +25,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!-- SEO Tags-->
 	<meta name="description" content="Resistor Color Code | MGC Tech Tips">
-	<meta name="keywords"
-		content="Resistor Color Code, Color Code, Resistor, E24 Resistor, Resistor Calculator">
+	<meta name="keywords" content="Resistor Color Code, Color Code, Resistor, E24 Resistor, Resistor Calculator">
 	<meta name="subject" content="Resistor Color Code | MGC Tech Tips">
 	<meta name="copyright" content="This site is own and maintained personally by MGC Tech Tips Groups">
 	<meta name="language" content="en">
@@ -52,8 +51,8 @@
 	<!-- ICON LINK -->
 	<link rel="icon" href="../MGCTECHTIPS.ico">
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="../css/styles.css">
 	<link rel="stylesheet" type="text/css" href="../css/app.css">
 	<!-- FONT FOR THE MAINPAGE -->
@@ -136,6 +135,8 @@
 								role="tab" aria-controls="nav-5band" aria-selected="false">5 Bands</a>
 							<a class="nav-item nav-link" id="nav-6band-tab" data-toggle="tab" href="#nav-6band"
 								role="tab" aria-controls="nav-6band" aria-selected="false">6 Bands</a>
+							<a class="nav-item nav-link" id="nav-SMD-tab" data-toggle="tab" href="#nav-SMD" role="tab"
+								aria-controls="nav-SMD" aria-selected="false">SMD</a>
 						</div>
 					</nav>
 					<div class="tab-content" id="nav-tabContent">
@@ -143,7 +144,8 @@
 						<div class="tab-pane fade show active" id="nav-4band" role="tabpanel"
 							aria-labelledby="nav-4band-tab">
 							<div class="row mx-auto">
-								<img class="img-fluid mt-3 mb-3 mx-auto" src="./images/colorcode.png" alt="color code" height="200px">
+								<img class="img-fluid mt-3 mb-3 mx-auto" src="./images/colorcode.png" alt="color code"
+									height="200px">
 							</div>
 							<form>
 								<div class="row mt-3">
@@ -151,67 +153,67 @@
 										<label for="firstband4b">1st Band of Color</label>
 										<select class="form-control" id="firstband4b">
 											<option hidden>1st Band Color</option>
-											<option value="0" class="black">Black	0</option>
-											<option value="1" class="brown">Brown	1</option>
-											<option value="2" class="red">Red		2</option>
-											<option value="3" class="orange">Orange	3</option>
-											<option value="4" class="yellow">Yellow	4</option>
-											<option value="5" class="green">Green	5</option>
-											<option value="6" class="blue">Blue	6</option>
-											<option value="7" class="violet">Violet	7</option>
-											<option value="8" class="grey">Grey		8</option>
-											<option value="9" class="white">White	9</option>
+											<option value="0" class="black">Black 0</option>
+											<option value="1" class="brown">Brown 1</option>
+											<option value="2" class="red">Red 2</option>
+											<option value="3" class="orange">Orange 3</option>
+											<option value="4" class="yellow">Yellow 4</option>
+											<option value="5" class="green">Green 5</option>
+											<option value="6" class="blue">Blue 6</option>
+											<option value="7" class="violet">Violet 7</option>
+											<option value="8" class="grey">Grey 8</option>
+											<option value="9" class="white">White 9</option>
 										</select>
 									</div>
 									<div class="col-md-3 col-sm-12">
 										<label for="secondband4b">2nd Band of Color</label>
 										<select class="form-control" id="secondband4b">
 											<option hidden>2nd Band Color</option>
-											<option value="0" class="black">Black	0</option>
-											<option value="1" class="brown">Brown	1</option>
-											<option value="2" class="red">Red		2</option>
-											<option value="3" class="orange">Orange	3</option>
-											<option value="4" class="yellow">Yellow	4</option>
-											<option value="5" class="green">Green	5</option>
-											<option value="6" class="blue">Blue	6</option>
-											<option value="7" class="violet">Violet	7</option>
-											<option value="8" class="grey">Grey		8</option>
-											<option value="9" class="white">White	9</option>
+											<option value="0" class="black">Black 0</option>
+											<option value="1" class="brown">Brown 1</option>
+											<option value="2" class="red">Red 2</option>
+											<option value="3" class="orange">Orange 3</option>
+											<option value="4" class="yellow">Yellow 4</option>
+											<option value="5" class="green">Green 5</option>
+											<option value="6" class="blue">Blue 6</option>
+											<option value="7" class="violet">Violet 7</option>
+											<option value="8" class="grey">Grey 8</option>
+											<option value="9" class="white">White 9</option>
 										</select>
 									</div>
 									<div class="col-md-3 col-sm-12">
 										<label for="multiplier4b">Multiplier</label>
 										<select class="form-control" id="multiplier4b">
 											<option hidden>Multiplier</option>
-											<option value="1" class="black">Black	x1 Ω</option>
-											<option value="10" class="brown">Brown	x10 Ω</option>
-											<option value="100" class="red">Red	x100 Ω</option>
+											<option value="1" class="black">Black x1 Ω</option>
+											<option value="10" class="brown">Brown x10 Ω</option>
+											<option value="100" class="red">Red x100 Ω</option>
 											<option value="1000" class="orange">Orange x1 kΩ</option>
 											<option value="10000" class="yellow">Yellow x10 kΩ</option>
-											<option value="100000" class="green">Green	x100 kΩ</option>
-											<option value="1000000" class="blue">Blue	x1M Ω</option>
-											<option value="10000000" class="violet">Violet	x10 MΩ</option>
-											<option value="100000000" class="grey">Grey	x100 MΩ</option>
-											<option value="1000000000" class="white">White	x1 GΩ</option>
-											<option value="0.1" class="gold">Gold	x0.1 Ω</option>
-											<option value="0.01" class="silver">Silver	x0.01 Ω</option>
+											<option value="100000" class="green">Green x100 kΩ</option>
+											<option value="1000000" class="blue">Blue x1M Ω</option>
+											<option value="10000000" class="violet">Violet x10 MΩ</option>
+											<option value="100000000" class="grey">Grey x100 MΩ</option>
+											<option value="1000000000" class="white">White x1 GΩ</option>
+											<option value="0.1" class="gold">Gold x0.1 Ω</option>
+											<option value="0.01" class="silver">Silver x0.01 Ω</option>
 										</select>
 									</div>
 									<div class="col-md-3 col-sm-12">
 										<label for="tolerance4b">Tolerance</label>
 										<select class="form-control" id="tolerance4b">
 											<option hidden>Tolerance</option>
-											<option value="±1%" class="brown">Brown	±1%</option>
-											<option value="±2%" class="red">Red	±2%</option>
-											<option value="±0.5%" class="green">Green	±0.5%</option>
-											<option value="±0.25%" class="blue">Blue	±0.25%</option>
-											<option value="±0.1%" class="violet">Violet	±0.1%</option>
-											<option value="±0.05%" class="grey">Grey	±0.05%</option>
-											<option value="±5%" class="gold">Gold	±5%</option>
-											<option value="±10%" class="silver">Silver	±10%</option>
+											<option value="±1%" class="brown">Brown ±1%</option>
+											<option value="±2%" class="red">Red ±2%</option>
+											<option value="±0.5%" class="green">Green ±0.5%</option>
+											<option value="±0.25%" class="blue">Blue ±0.25%</option>
+											<option value="±0.1%" class="violet">Violet ±0.1%</option>
+											<option value="±0.05%" class="grey">Grey ±0.05%</option>
+											<option value="±5%" class="gold">Gold ±5%</option>
+											<option value="±10%" class="silver">Silver ±10%</option>
 										</select>
 									</div>
-									
+
 								</div>
 								<div class="row mt-3">
 									<div class="col-md-12 col-sm-12">
@@ -220,13 +222,19 @@
 									</div>
 								</div>
 							</form>
-							<button type="button" class="btn btn-primary mt-3" onclick="result_4band()">Check Value</button>
+							<button type="button" class="btn btn-primary mt-3" onclick="result_4band()">Check
+								Value</button>
+							<button type="button" class="btn btn-secondary mt-3" data-toggle="tooltip"
+								data-placement="top" title="Copy to clipboard" onclick="copy4b()">
+								Copy Value
+							</button>
 						</div>
 						<!-- END of 4bands -->
 						<!-- 5bands -->
 						<div class="tab-pane fade" id="nav-5band" role="tabpanel" aria-labelledby="nav-5band-tab">
 							<div class="row mx-auto">
-								<img class="img-fluid mt-3 mb-3 mx-auto" src="./images/colorcode5b.png" alt="color code" height="200px">
+								<img class="img-fluid mt-3 mb-3 mx-auto" src="./images/colorcode5b.png" alt="color code"
+									height="200px">
 							</div>
 							<form>
 								<div class="row mt-3">
@@ -234,83 +242,83 @@
 										<label for="firstband5b">1st Band of Color</label>
 										<select class="form-control" id="firstband5b">
 											<option hidden>1st Band Color</option>
-											<option value="0" class="black">Black	0</option>
-											<option value="1" class="brown">Brown	1</option>
-											<option value="2" class="red">Red		2</option>
-											<option value="3" class="orange">Orange	3</option>
-											<option value="4" class="yellow">Yellow	4</option>
-											<option value="5" class="green">Green	5</option>
-											<option value="6" class="blue">Blue	6</option>
-											<option value="7" class="violet">Violet	7</option>
-											<option value="8" class="grey">Grey		8</option>
-											<option value="9" class="white">White	9</option>
+											<option value="0" class="black">Black 0</option>
+											<option value="1" class="brown">Brown 1</option>
+											<option value="2" class="red">Red 2</option>
+											<option value="3" class="orange">Orange 3</option>
+											<option value="4" class="yellow">Yellow 4</option>
+											<option value="5" class="green">Green 5</option>
+											<option value="6" class="blue">Blue 6</option>
+											<option value="7" class="violet">Violet 7</option>
+											<option value="8" class="grey">Grey 8</option>
+											<option value="9" class="white">White 9</option>
 										</select>
 									</div>
 									<div class="col-md-3 col-sm-12">
 										<label for="secondband5b">2nd Band of Color</label>
 										<select class="form-control" id="secondband5b">
 											<option hidden>2nd Band Color</option>
-											<option value="0" class="black">Black	0</option>
-											<option value="1" class="brown">Brown	1</option>
-											<option value="2" class="red">Red		2</option>
-											<option value="3" class="orange">Orange	3</option>
-											<option value="4" class="yellow">Yellow	4</option>
-											<option value="5" class="green">Green	5</option>
-											<option value="6" class="blue">Blue	6</option>
-											<option value="7" class="violet">Violet	7</option>
-											<option value="8" class="grey">Grey		8</option>
-											<option value="9" class="white">White	9</option>
+											<option value="0" class="black">Black 0</option>
+											<option value="1" class="brown">Brown 1</option>
+											<option value="2" class="red">Red 2</option>
+											<option value="3" class="orange">Orange 3</option>
+											<option value="4" class="yellow">Yellow 4</option>
+											<option value="5" class="green">Green 5</option>
+											<option value="6" class="blue">Blue 6</option>
+											<option value="7" class="violet">Violet 7</option>
+											<option value="8" class="grey">Grey 8</option>
+											<option value="9" class="white">White 9</option>
 										</select>
 									</div>
 									<div class="col-md-3 col-sm-12">
 										<label for="thirdband5b">3rd Band of Color</label>
 										<select class="form-control" id="thirdband5b">
 											<option hidden>3rd Band Color</option>
-											<option value="0" class="black">Black	0</option>
-											<option value="1" class="brown">Brown	1</option>
-											<option value="2" class="red">Red		2</option>
-											<option value="3" class="orange">Orange	3</option>
-											<option value="4" class="yellow">Yellow	4</option>
-											<option value="5" class="green">Green	5</option>
-											<option value="6" class="blue">Blue	6</option>
-											<option value="7" class="violet">Violet	7</option>
-											<option value="8" class="grey">Grey		8</option>
-											<option value="9" class="white">White	9</option>
+											<option value="0" class="black">Black 0</option>
+											<option value="1" class="brown">Brown 1</option>
+											<option value="2" class="red">Red 2</option>
+											<option value="3" class="orange">Orange 3</option>
+											<option value="4" class="yellow">Yellow 4</option>
+											<option value="5" class="green">Green 5</option>
+											<option value="6" class="blue">Blue 6</option>
+											<option value="7" class="violet">Violet 7</option>
+											<option value="8" class="grey">Grey 8</option>
+											<option value="9" class="white">White 9</option>
 										</select>
 									</div>
 									<div class="col-md-3 col-sm-12">
 										<label for="multiplier5b">Multiplier</label>
 										<select class="form-control" id="multiplier5b">
 											<option hidden>Multiplier</option>
-											<option value="1" class="black">Black	x1 Ω</option>
-											<option value="10" class="brown">Brown	x10 Ω</option>
-											<option value="100" class="red">Red	x100 Ω</option>
+											<option value="1" class="black">Black x1 Ω</option>
+											<option value="10" class="brown">Brown x10 Ω</option>
+											<option value="100" class="red">Red x100 Ω</option>
 											<option value="1000" class="orange">Orange x1 kΩ</option>
 											<option value="10000" class="yellow">Yellow x10 kΩ</option>
-											<option value="100000" class="green">Green	x100 kΩ</option>
-											<option value="1000000" class="blue">Blue	x1M Ω</option>
-											<option value="10000000" class="violet">Violet	x10 MΩ</option>
-											<option value="100000000" class="grey">Grey	x100 MΩ</option>
-											<option value="1000000000" class="white">White	x1 GΩ</option>
-											<option value="0.1" class="gold">Gold	x0.1 Ω</option>
-											<option value="0.01" class="silver">Silver	x0.01 Ω</option>
+											<option value="100000" class="green">Green x100 kΩ</option>
+											<option value="1000000" class="blue">Blue x1M Ω</option>
+											<option value="10000000" class="violet">Violet x10 MΩ</option>
+											<option value="100000000" class="grey">Grey x100 MΩ</option>
+											<option value="1000000000" class="white">White x1 GΩ</option>
+											<option value="0.1" class="gold">Gold x0.1 Ω</option>
+											<option value="0.01" class="silver">Silver x0.01 Ω</option>
 										</select>
 									</div>
 									<div class="col-md-3 col-sm-12">
 										<label for="tolerance5b">Tolerance</label>
 										<select class="form-control" id="tolerance5b">
 											<option hidden>Tolerance</option>
-											<option value="±1%" class="brown">Brown	±1%</option>
-											<option value="±2%" class="red">Red	±2%</option>
-											<option value="±0.5%" class="green">Green	±0.5%</option>
-											<option value="±0.25%" class="blue">Blue	±0.25%</option>
-											<option value="±0.1%" class="violet">Violet	±0.1%</option>
-											<option value="±0.05%" class="grey">Grey	±0.05%</option>
-											<option value="±5%" class="gold">Gold	±5%</option>
-											<option value="±10%" class="silver">Silver	±10%</option>
+											<option value="±1%" class="brown">Brown ±1%</option>
+											<option value="±2%" class="red">Red ±2%</option>
+											<option value="±0.5%" class="green">Green ±0.5%</option>
+											<option value="±0.25%" class="blue">Blue ±0.25%</option>
+											<option value="±0.1%" class="violet">Violet ±0.1%</option>
+											<option value="±0.05%" class="grey">Grey ±0.05%</option>
+											<option value="±5%" class="gold">Gold ±5%</option>
+											<option value="±10%" class="silver">Silver ±10%</option>
 										</select>
 									</div>
-									
+
 								</div>
 								<div class="row mt-3">
 									<div class="col-md-12 col-sm-12">
@@ -319,13 +327,19 @@
 									</div>
 								</div>
 							</form>
-							<button type="button" class="btn btn-primary mt-3" onclick="result_5band()">Check Value</button>
+							<button type="button" class="btn btn-primary mt-3" onclick="result_5band()">Check
+								Value</button>
+							<button type="button" class="btn btn-secondary mt-3" data-toggle="tooltip"
+								data-placement="top" title="Copy to clipboard" onclick="copy5b()">
+								Copy Value
+							</button>
 						</div>
 						<!-- end of 5bands -->
 						<!-- 6bands -->
 						<div class="tab-pane fade" id="nav-6band" role="tabpanel" aria-labelledby="nav-6band-tab">
 							<div class="row mx-auto">
-								<img class="img-fluid mt-3 mb-3 mx-auto" src="./images/colorcode6b.png" alt="color code" height="200px">
+								<img class="img-fluid mt-3 mb-3 mx-auto" src="./images/colorcode6b.png" alt="color code"
+									height="200px">
 							</div>
 							<form>
 								<div class="row mt-3">
@@ -333,80 +347,80 @@
 										<label for="firstband6b">1st Band of Color</label>
 										<select class="form-control" id="firstband6b">
 											<option hidden>1st Band Color</option>
-											<option value="0" class="black">Black	0</option>
-											<option value="1" class="brown">Brown	1</option>
-											<option value="2" class="red">Red		2</option>
-											<option value="3" class="orange">Orange	3</option>
-											<option value="4" class="yellow">Yellow	4</option>
-											<option value="5" class="green">Green	5</option>
-											<option value="6" class="blue">Blue	6</option>
-											<option value="7" class="violet">Violet	7</option>
-											<option value="8" class="grey">Grey		8</option>
-											<option value="9" class="white">White	9</option>
+											<option value="0" class="black">Black 0</option>
+											<option value="1" class="brown">Brown 1</option>
+											<option value="2" class="red">Red 2</option>
+											<option value="3" class="orange">Orange 3</option>
+											<option value="4" class="yellow">Yellow 4</option>
+											<option value="5" class="green">Green 5</option>
+											<option value="6" class="blue">Blue 6</option>
+											<option value="7" class="violet">Violet 7</option>
+											<option value="8" class="grey">Grey 8</option>
+											<option value="9" class="white">White 9</option>
 										</select>
 									</div>
 									<div class="col-md-3 col-sm-12">
 										<label for="secondband6b">2nd Band of Color</label>
 										<select class="form-control" id="secondband6b">
 											<option hidden>2nd Band Color</option>
-											<option value="0" class="black">Black	0</option>
-											<option value="1" class="brown">Brown	1</option>
-											<option value="2" class="red">Red		2</option>
-											<option value="3" class="orange">Orange	3</option>
-											<option value="4" class="yellow">Yellow	4</option>
-											<option value="5" class="green">Green	5</option>
-											<option value="6" class="blue">Blue	6</option>
-											<option value="7" class="violet">Violet	7</option>
-											<option value="8" class="grey">Grey		8</option>
-											<option value="9" class="white">White	9</option>
+											<option value="0" class="black">Black 0</option>
+											<option value="1" class="brown">Brown 1</option>
+											<option value="2" class="red">Red 2</option>
+											<option value="3" class="orange">Orange 3</option>
+											<option value="4" class="yellow">Yellow 4</option>
+											<option value="5" class="green">Green 5</option>
+											<option value="6" class="blue">Blue 6</option>
+											<option value="7" class="violet">Violet 7</option>
+											<option value="8" class="grey">Grey 8</option>
+											<option value="9" class="white">White 9</option>
 										</select>
 									</div>
 									<div class="col-md-3 col-sm-12">
 										<label for="thirdband6b">3rd Band of Color</label>
 										<select class="form-control" id="thirdband6b">
 											<option hidden>3rd Band Color</option>
-											<option value="0" class="black">Black	0</option>
-											<option value="1" class="brown">Brown	1</option>
-											<option value="2" class="red">Red		2</option>
-											<option value="3" class="orange">Orange	3</option>
-											<option value="4" class="yellow">Yellow	4</option>
-											<option value="5" class="green">Green	5</option>
-											<option value="6" class="blue">Blue	6</option>
-											<option value="7" class="violet">Violet	7</option>
-											<option value="8" class="grey">Grey		8</option>
-											<option value="9" class="white">White	9</option>
+											<option value="0" class="black">Black 0</option>
+											<option value="1" class="brown">Brown 1</option>
+											<option value="2" class="red">Red 2</option>
+											<option value="3" class="orange">Orange 3</option>
+											<option value="4" class="yellow">Yellow 4</option>
+											<option value="5" class="green">Green 5</option>
+											<option value="6" class="blue">Blue 6</option>
+											<option value="7" class="violet">Violet 7</option>
+											<option value="8" class="grey">Grey 8</option>
+											<option value="9" class="white">White 9</option>
 										</select>
 									</div>
 									<div class="col-md-3 col-sm-12">
 										<label for="multiplier6b">Multiplier</label>
 										<select class="form-control" id="multiplier6b">
 											<option hidden>Multiplier</option>
-											<option value="1" class="black">Black	x1 Ω</option>
-											<option value="10" class="brown">Brown	x10 Ω</option>
-											<option value="100" class="red">Red	x100 Ω</option>
+											<option value="1" class="black">Black x1 Ω</option>
+											<option value="10" class="brown">Brown x10 Ω</option>
+											<option value="100" class="red">Red x100 Ω</option>
 											<option value="1000" class="orange">Orange x1 kΩ</option>
 											<option value="10000" class="yellow">Yellow x10 kΩ</option>
-											<option value="100000" class="green">Green	x100 kΩ</option>
-											<option value="1000000" class="blue">Blue	x1M Ω</option>
-											<option value="10000000" class="violet">Violet	x10 MΩ</option>
-											<option value="100000000" class="grey">Grey	x100 MΩ</option>
-											<option value="1000000000" class="white">White	x1 GΩ</option>
-											<option value="0.1" class="gold">Gold	x0.1 Ω</option>
-											<option value="0.01" class="silver">Silver	x0.01 Ω</option>
+											<option value="100000" class="green">Green x100 kΩ</option>
+											<option value="1000000" class="blue">Blue x1M Ω</option>
+											<option value="10000000" class="violet">Violet x10 MΩ</option>
+											<option value="100000000" class="grey">Grey x100 MΩ</option>
+											<option value="1000000000" class="white">White x1 GΩ</option>
+											<option value="0.1" class="gold">Gold x0.1 Ω</option>
+											<option value="0.01" class="silver">Silver x0.01 Ω</option>
 										</select>
 									</div>
 									<div class="col-md-3 col-sm-12">
 										<label for="tolerance6b">Tolerance</label>
 										<select class="form-control" id="tolerance6b">
 											<option hidden>Tolerance</option>
-											<option value="±1%" class="brown">Brown	±1%</option>
-											<option value="±2%" class="red">Red	±2%</option>
-											<option value="±0.5%" class="green">Green	±0.5%</option>
-											<option value="±0.25%" class="blue">Blue	±0.25%</option>
-											<option value="±0.1%" class="violet">Violet	±0.1%</option>
-											<option value="±0.05%" class="grey">Grey	±0.05%</option>
-											<option value="±5%" class="gold">Gold	±5%</option>
-											<option value="±10%" class="silver">Silver	±10%</option>
+											<option value="±1%" class="brown">Brown ±1%</option>
+											<option value="±2%" class="red">Red ±2%</option>
+											<option value="±0.5%" class="green">Green ±0.5%</option>
+											<option value="±0.25%" class="blue">Blue ±0.25%</option>
+											<option value="±0.1%" class="violet">Violet ±0.1%</option>
+											<option value="±0.05%" class="grey">Grey ±0.05%</option>
+											<option value="±5%" class="gold">Gold ±5%</option>
+											<option value="±10%" class="silver">Silver ±10%</option>
 										</select>
 									</div>
 									<div class="col-md-3 col-sm-12">
@@ -414,17 +428,17 @@
 										<select class="form-control" id="ppm6b">
 											<option hidden>PPM/K</option>
 											<option value="250" class="black">Black 250ppm/K</option>
-											<option value="100" class="brown">Brown	100</option>
-											<option value="50" class="red">Red	50ppm/K</option>
-											<option value="15" class="orange">Orange	15ppm/K</option>
-											<option value="25" class="yellow">Yellow	25ppm/K</option>
-											<option value="20" class="green">Green	20ppm/K</option>
-											<option value="10" class="blue">blue	10ppm/K</option>
-											<option value="5" class="violet">Violet	5ppm/K</option>
-											<option value="1" class="grey">Grey	1ppm/K</option>
+											<option value="100" class="brown">Brown 100</option>
+											<option value="50" class="red">Red 50ppm/K</option>
+											<option value="15" class="orange">Orange 15ppm/K</option>
+											<option value="25" class="yellow">Yellow 25ppm/K</option>
+											<option value="20" class="green">Green 20ppm/K</option>
+											<option value="10" class="blue">blue 10ppm/K</option>
+											<option value="5" class="violet">Violet 5ppm/K</option>
+											<option value="1" class="grey">Grey 1ppm/K</option>
 										</select>
 									</div>
-									
+
 								</div>
 								<div class="row mt-3">
 									<div class="col-md-12 col-sm-12">
@@ -433,9 +447,52 @@
 									</div>
 								</div>
 							</form>
-							<button type="button" class="btn btn-primary mt-3" onclick="result_6band()">Check Value</button>
+							<button type="button" class="btn btn-primary mt-3" onclick="result_6band()">Check
+								Value</button>
+							<button type="button" class="btn btn-secondary mt-3" data-toggle="tooltip"
+								data-placement="top" title="Copy to clipboard" onclick="copy6b()">
+								Copy Value
+							</button>
 						</div>
 						<!-- end of 6bands -->
+						<!-- SMD -->
+						<div class="tab-pane fade" id="nav-SMD" role="tabpanel" aria-labelledby="nav-SMD-tab">
+							<div class="row mx-auto">
+								<img class="img-fluid mt-3 mb-3 mx-auto" src="./images/SMD.png" alt="color code"
+									height="100px">
+							</div>
+							<form>
+								<div class="row mt-3">
+									<div class="col-md-12 col-sm-12">
+										<h2 style="text-align: center; font-weight: bolder; color: red;">**UNDER MAINTENANCE**</h2>
+										<label for="SMD">SMD Code</label>
+										<input type="text" id="SMD"
+											style="text-transform: uppercase; text-align: center;" maxlength="4">
+									</div>
+								</div>
+								<div class="row mt-3">
+									<div class="col-md-12 col-sm-12">
+										<input type="checkbox" id="smd_underline" name="smd_underline" value="0">
+										Underlined
+										<p></p>
+										<label for="result">Resistance Value</label>
+										<input style="text-align: center;" type="text" id="ohmvalueSMD">
+									</div>
+								</div>
+							</form>
+							<button id="btnSMD" type="button" class="btn btn-primary mt-3" onclick="result_SMD()">Check
+								Value</button>
+							<button type="button" class="btn btn-secondary mt-3" data-toggle="tooltip"
+								data-placement="top" title="Copy to clipboard" onclick="copySMD()">
+								Copy Value
+							</button>
+							<p>
+							<h5>Note</h5> We did our best to check that the calculator functions for all possible codes, yet we cannot guarantee that it calculates the correct value for all resistors. Sometimes manufacturers may use custom codes. To be absolutely sure about the value kindly check the datasheet from the manufacturer or you can measure the resistance with a multimeter.
+							</p>
+							<p>If you find any error, please let us know through <a href="../contact.html" rel="nofollow" target="_blank">here</a>.</p>
+					
+						</div>
+						<!-- END of SMD -->
 					</div>
 					<!-- TABS -->
 					<script src="https://utteranc.es/client.js" repo="mikkocaguiat/mikkocaguiat-tech"
@@ -600,14 +657,19 @@
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
 		crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+	<script>
+		$(function () {
+			$('[data-toggle="tooltip"]').tooltip()
+		})
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
 		crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
 		crossorigin="anonymous"></script>
 	<script src="../js/cookie.js"></script>
 	<script src="./js/app.js"></script>

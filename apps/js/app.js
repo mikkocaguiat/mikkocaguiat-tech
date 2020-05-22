@@ -1,3 +1,12 @@
+var inputSMD = document.getElementById("SMD");
+inputSMD.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+   event.preventDefault();
+   document.getElementById("btnSMD").click();
+  }
+});
+
+
 
 function result_4band(){
     var mult, resDisplay, res;
@@ -101,4 +110,75 @@ function result_6band(){
     resDisplay += " " + tolerance6b + " " + ppm6b + "ppm/K";
 
     document.getElementById("ohmvalue6").value=resDisplay;
+}
+
+function result_SMD(){
+    var code = document.getElementById("SMD").value;
+    var n = code.length;
+    var r = code.includes("R") || code.includes("r");
+
+    if (n==4){
+        if (r==true){
+            n = "It has R";
+        }
+        else{
+            n = "No R";
+        }
+    }
+
+    else if (n==3){
+        n = "Three Code SMD";
+    }
+    else{
+        n = "Error | Unknown SMD Code";
+    }
+    document.getElementById("ohmvalueSMD").value=n;
+}
+
+
+function copy4b() {
+    /* Get the text field */
+    var copyText = document.getElementById("ohmvalue4");
+  
+    /* Select the text field */
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+  
+    /* Copy the text inside the text field */
+    document.execCommand("copy");
+}
+function copy5b() {
+    /* Get the text field */
+    var copyText = document.getElementById("ohmvalue5");
+  
+    /* Select the text field */
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+  
+    /* Copy the text inside the text field */
+    document.execCommand("copy");
+}
+
+function copy6b() {
+    /* Get the text field */
+    var copyText = document.getElementById("ohmvalue6");
+  
+    /* Select the text field */
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+  
+    /* Copy the text inside the text field */
+    document.execCommand("copy");
+}
+
+function copySMD() {
+    /* Get the text field */
+    var copyText = document.getElementById("ohmvalueSMD");
+  
+    /* Select the text field */
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+  
+    /* Copy the text inside the text field */
+    document.execCommand("copy");
 }
