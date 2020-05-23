@@ -113,26 +113,59 @@ function result_6band(){
 }
 
 function result_SMD(){
+    var res, resDisplay, digits, multiplierSMD;
     var code = document.getElementById("SMD").value;
     var n = code.length;
     var r = code.includes("R") || code.includes("r");
+    var m = code.includes("M") || code.includes("m");
 
     if (n==4){
         if (r==true){
             n = "It has R";
         }
+        else if (m==true){
+
+        }
         else{
-            n = "No R";
+            digits = parseInt(code / 10);
+            multiplierSMD = parseInt(code % 10);
+            res = digits * Math.pow(10, multiplierSMD);
         }
     }
 
     else if (n==3){
-        n = "Three Code SMD";
+        if (r==true){
+            n = "It has R";
+        }
+        else if (m==true){
+            
+        }
+        else{
+            digits = parseInt(code / 10);
+            multiplierSMD = parseInt(code % 10);
+            res = digits * Math.pow(10, multiplierSMD);
+        }
     }
     else{
         n = "Error | Unknown SMD Code";
     }
-    document.getElementById("ohmvalueSMD").value=n;
+
+    if (res >= 1e9) {
+        res /= 1e9;
+        mult = "G";
+    } else if (res >= 1e6) {
+        res /= 1e6;
+        mult = "M";
+    } else if (res >= 1e3) {
+        res /= 1e3;
+        mult = "k";
+    } else {
+        mult = " ";
+    }
+
+    resDisplay = res + mult + " Ω";
+
+    document.getElementById("ohmvalueSMD").value=resDisplay;
 }
 
 
