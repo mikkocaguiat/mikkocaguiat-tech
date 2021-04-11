@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /images/
+Disallow: /Policy/
+Disallow: /*.md$
+Disallow: /about/CAGUIAT, MIKKO.JPG
+Allow: /images/Support_Banner.png
+Allow: /images/Ads.gif
+
+crawl-delay: 50
+
+Sitemap: https://mgctechtips.netlify.app/sitemap.xml
